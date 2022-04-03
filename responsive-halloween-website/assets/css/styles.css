@@ -14,7 +14,7 @@
   --text-color-light: hsl(var(--hue), 4%, 55%);
 
   /* Green gradient */
-  --body-color: linear-gradient(
+  /* --body-color: linear-gradient(
     90deg,
     hsl(104, 28%, 40%) 0%,
     hsl(58, 28%, 40%) 100%
@@ -23,7 +23,7 @@
     136deg,
     hsl(104, 28%, 35%) 0%,
     hsl(58, 28%, 35%) 100%
-  );
+  ); */
 
   /* Red gradient */
   /* --body-color: linear-gradient(
@@ -37,9 +37,13 @@
     hsl(18, 28%, 35%) 100%
   ); */
 
-  /* Black solid */
-  /* --body-color: hsl(30, 8%, 8%);
+  /* Black solid
+  --body-color: hsl(30, 8%, 8%);
   --container-color: hsl(30, 8%, 10%); */
+
+   /* Dark mode  */
+  --body-color: hsl(227, 16%, 23%);
+  --container-color: hsl(227, 16%, 25%);
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
